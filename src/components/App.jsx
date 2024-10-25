@@ -7,10 +7,10 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#12b878'
       }}
     >
-      Hi words!
+     <h1>Hi words!</h1> 
     </div>
   );
 };
