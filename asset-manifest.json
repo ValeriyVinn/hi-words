@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ValeriyVinn/hi-words/static/css/main.7acaea2f.css",
-    "main.js": "/ValeriyVinn/hi-words/static/js/main.07d3183d.js",
+    "main.js": "/ValeriyVinn/hi-words/static/js/main.8f22872b.js",
     "index.html": "/ValeriyVinn/hi-words/index.html",
     "main.7acaea2f.css.map": "/ValeriyVinn/hi-words/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/ValeriyVinn/hi-words/static/js/main.07d3183d.js.map"
+    "main.8f22872b.js.map": "/ValeriyVinn/hi-words/static/js/main.8f22872b.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.8f22872b.js"
   ]
 }
