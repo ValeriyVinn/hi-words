@@ -1,0 +1,16 @@
+.article {
+    border: 1px solid green;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 95%;
+    background-color: rgb(247, 246, 246);
+  }
+
+  .orderedList {
+    margin-left: 20px;
+  }
+
+  .boldText {
+    font-weight: bold;
+  }

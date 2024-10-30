@@ -1,0 +1,12 @@
+.dropdownMenu {
+  background-color: aqua;
+  margin-left: -20px;
+  padding: 5px 20px;
+}
+
+/* .dropdownMenu_List {
+} */
+
+.dropdownMenu_item:not(:last-child) {
+  margin-bottom: 10px;
+}

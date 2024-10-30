@@ -1,0 +1,266 @@
+{
+  "abide by": {
+    "derivatives": ["abides by", "abiding by", "abided by"],
+    "descriptions": ["to follow a rule, decision, or instruction"],
+    "examples": [
+      "Ah, surely,' Maram said, `this is the time to abide by the letter of his rule?",
+      "They promised to abide by the rules of the contest."
+    ],
+    "frequency": 0,
+    "synonyms": ["agree to", "carry out", "follow", "obey"],
+    "translations": {
+      "2": {
+        "блюсти": [],
+        "выполнить": [],
+        "выполнять": [],
+        "подчиниться": [],
+        "подчиняться": [],
+        "придерживаться": [],
+        "руководствоваться": [],
+        "следовать": [],
+        "соблюдать": [],
+        "соблюсти": []
+      }
+    }
+  },
+  "ache for": {
+    "descriptions": ["to want something or someone very much"],
+    "examples": ["He was so lonely he ached for the sound of a human voice."]
+  },
+  "act as": {
+    "derivatives": ["acts as", "acting as", "acted as"],
+    "descriptions": ["to do the job of a particular kind of person or thing"],
+    "examples": [
+      "Body fat acts as an insulator.",
+      "You speak Greek – will you act as interpreter?"
+    ],
+    "translations": {
+      "2": {
+        "выполнять функции": [],
+        "выполнять функцию": [],
+        "выступать в качестве": [],
+        "выступать в роли": [],
+        "выступить в качестве": [],
+        "играть роль": [],
+        "исполнять обязанности": [],
+        "послужить": [],
+        "служить": [],
+        "стать": [],
+        "являться": []
+      }
+    }
+  },
+  "act on": {
+    "derivatives": ["acts on", "acting on", "acted on"],
+    "descriptions": [
+      "to do something because you have been given information, advice, or orders"
+    ],
+    "examples": [
+      "I’m acting on the advice of my lawyers.",
+      "They were acting on the instructions of senior managers."
+    ],
+    "translations": {
+      "2": {
+        "воздействовать на": [],
+        "выполнить": [],
+        "выступать от": [],
+        "действовать на": [],
+        "действовать от": [],
+        "действовать по": []
+      }
+    }
+  },
+  "act out": {
+    "derivatives": ["acts out", "acting out", "acted out"],
+    "descriptions": [
+      "to do something that you have planned or had previously only thought of doing",
+      "to express your thoughts or feelings through your words or behaviour",
+      "to show the events that happened in a situation by doing them again or by doing the same things as the people involved"
+    ],
+    "examples": [
+      "He was acting out his feelings of inferiority by being overly aggressive.",
+      "He was gone so fast Tesla had no choice but to act out at the same time.",
+      "If something made Ben act out of character and he got drunk and then for some reason he got behind the wheel of that car.",
+      "It's enough to make anyone act out of character, so please - don't feel embarrassed by last night!",
+      "Just imagining these things is fine, as long as you don’t try to act them out.",
+      "Never empty, we can never act ex nihilo, never act out of whim, never act as God.",
+      "The scenarios that the trainees act out are videotaped."
+    ],
+    "frequency": 2,
+    "translations": {
+      "2": {
+        "разыграть": [],
+        "разыгрывать": []
+      },
+      "3": {
+        "разыгрывать (сцену)": []
+      }
+    }
+  },
+  "act up": {
+    "derivatives": ["acts up", "acting up", "acted up"],
+    "descriptions": [
+      "if a part of your body or a piece of equipment acts up, it starts to become painful or to develop problems",
+      "if children act up, they behave badly"
+    ],
+    "examples": [
+      "Agree with your partner how you are going to set boundaries for your stepson when he acts up.",
+      "I hope my back doesn’t start acting up again.",
+      "Indeed, children who are hugely acting up are, in my experience, asking to be assertively managed.",
+      "She began to play truant and acted up at home.",
+      "Surely none of them could possibly be acting up just for the cameras?",
+      "The kids have been acting up again.",
+      "Use the camera all the time so the family is used to it and stops going shy or acting up."
+    ],
+    "frequency": 0,
+    "synonyms": [
+      "carry on [informal]",
+      "cause trouble",
+      "mess about",
+      "misbehave"
+    ],
+    "translations": {
+      "3": {
+        "капризничать": []
+      }
+    }
+  },
+  "act upon": {
+    "descriptions": [
+      "affect",
+      "to take action because of something like information received"
+    ],
+    "translations": {
+      "2": {
+        "действовать": [],
+        "отреагировать на": [],
+        "принять по": [],
+        "реагировать": []
+      }
+    }
+  },
+  "add in": {
+    "derivatives": ["adds in", "adding in", "added in"],
+    "descriptions": ["to include something as part of something else"],
+    "examples": [
+      "We need to add in some information about his family background."
+    ],
+    "frequency": 0,
+    "translations": {
+      "2": {
+        "добавить в": []
+      }
+    }
+  },
+  "add on": {
+    "derivatives": ["adds on", "adding on", "added on"],
+    "descriptions": [
+      "to build an extra part onto a building",
+      "to include an extra thing or amount in something"
+    ],
+    "examples": [
+      "He told the man at the check stand that he was installing a tub in an add-on bathroom.",
+      "The referee added on eight minutes of injury time.",
+      "They refurbished the whole place and even added on."
+    ],
+    "frequency": 2
+  },
+  "add on to": {
+    "derivatives": ["adds on to", "adding on to", "added on to"],
+    "descriptions": ["to build an extra part onto a building"],
+    "examples": ["You might want to add on to the kitchen at a later date."]
+  },
+  "adhere to": {
+    "derivatives": ["adheres to", "adhering to", "adhered to"],
+    "descriptions": [
+      "to obey a rule, law, agreement etc",
+      "to support or believe in an idea, plan, opinion etc"
+    ],
+    "examples": [
+      "His followers adhere to a blend of Buddhist, Hindu, and Christian teachings.",
+      "We must strictly adhere to the terms of the contract."
+    ],
+    "translations": {
+      "2": {
+        "выполнить": [],
+        "выполнять": [],
+        "придерживаться": [],
+        "присоединиться к": [],
+        "руководствоваться": [],
+        "следовать": [],
+        "соблюдать": [],
+        "соблюсти": [],
+        "соответствовать": []
+      }
+    }
+  },
+  "adjourn to": {
+    "derivatives": ["adjourns to", "adjourning to", "adjourned to"],
+    "descriptions": ["to leave one place and move to another"],
+    "examples": ["Let’s adjourn to the bar."]
+  },
+  "admit of": {
+    "derivatives": ["admits of", "admitting of", "admitted of"],
+    "descriptions": ["to show that something is possible"]
+  },
+ 
+  "aim at": {
+    "descriptions": ["intend to achieve", "to target"],
+    "translations": {
+      "2": {
+        "заключаться в": [],
+        "ориентироваться на": [],
+        "предусматривать": [],
+        "стремиться": [],
+        "стремиться к": []
+      }
+    }
+  },
+  "alight on": {
+    "derivatives": ["alights on", "alighting on", "alighted on"],
+    "descriptions": ["to suddenly notice or think of something"],
+    "examples": ["Her eyes alighted on an extraordinary sight."]
+  },
+  "allow of": {
+    "derivatives": ["allows of", "allowing of", "allowed of"],
+    "descriptions": ["to show that something is possible"],
+    "examples": [
+      "The evidence allows of no other interpretation.",
+      "The possibility must be allowed of concepts which are not concepts of any actual thing, and of names which express a sense but have no denotation."
+    ],
+    "translations": {
+      "2": {
+        "допустить": []
+      }
+    }
+  },
+  "angle for": {
+    "derivatives": ["angles for", "angling for", "angled for"],
+    "descriptions": [
+      "to try to make someone give you something without asking for it directly"
+    ],
+    "examples": [
+      "She didn’t want Ron thinking that she was angling for sympathy."
+    ]
+  },
+  "answer back": {
+    "derivatives": ["answers back", "answering back", "answered back"],
+    "descriptions": [
+      "to reply rudely to someone who has more authority than you"
+    ],
+    "examples": [
+      "A survey of 2,000 parents suggests this is the age when children answer back and become influenced by their peers.",
+      "At school he was bullied for his weight but says he always answered back.",
+      "But there are ways of answering back."
+    ],
+    "frequency": 2,
+    "translations": {
+      "2": {
+        "огрызнуться": []
+      },
+      "3": {
+        "грубить": []
+      }
+    }
+  }
+}
