@@ -13,6 +13,7 @@
 
 dt {
   color: blue;
+  font-weight: 500;
 }
 
 .code {
@@ -40,6 +41,3 @@ dt {
   font-weight: 500;
 }
 
-dt {
-  font-weight: 500;
-}

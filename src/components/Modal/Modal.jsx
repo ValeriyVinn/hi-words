@@ -10,6 +10,7 @@ const Modal = ({ closeModal, children }) => {
         </button>
         {children}
       </div>
+      
     </div>
   );
 };

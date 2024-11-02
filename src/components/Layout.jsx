@@ -11,7 +11,7 @@ const Layout = () => {
           <li className={css.mainMenu_home}>
             <NavLink to="/">Home</NavLink>
           </li>
-          <li className={css.mainMenu_interview}>
+          <li className={css.mainMenu_interview} tabIndex="0">
             Interview
             <div className={css.dropdownMenu}>
               <DropdownInterview />
@@ -37,7 +37,6 @@ const Layout = () => {
                 </NavLink>
               </li>
               <li>
-                {' '}
                 <NavLink
                   to="collocations"
                   className={css.rightMenu_collocations}

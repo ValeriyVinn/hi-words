@@ -8,12 +8,14 @@
   background-color: rgb(247, 246, 246);
 }
 
-
+/* .phoneticsSectionHeader {
+} */
 
 .chart {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .description {
@@ -36,7 +38,6 @@
 }
 
 .btnWatchVideo {
-  /* background-color: rgb(216, 155, 155); */
   color: green;
   padding: 10px;
   border: 2px solid green;
@@ -48,7 +49,7 @@
 /* ! accordeon -- */
 .accordion {
   display: block;
-  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: rgb(212, 255, 230);
   cursor: pointer;
   padding: 10px;

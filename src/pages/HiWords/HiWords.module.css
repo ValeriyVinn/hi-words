@@ -62,20 +62,6 @@
   background-color: rgb(247, 246, 246);
 }
 
-/* .paragraph:not(:last-child) {
-    margin-bottom: 20px;
-} */
-
-/* .book {
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-}
-
-.bookPage {
-    width: 49%;  
-} */
-
 .book {
   display: flex;
   /* padding: 10px; */

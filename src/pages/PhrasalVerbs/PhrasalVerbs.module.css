@@ -17,13 +17,13 @@
   margin: 5px;
   border: 1px soid green;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-.filter_words {
+.filter_words  {
   color: darkgreen;
   font-size: 28px;
   font-weight: 500;
-  margin-right: 20px;
 }
 
 .input {
@@ -43,18 +43,24 @@ form {
   height: 430px;
   padding: 10px;
   overflow: auto;
+  scrollbar-width: thin;
 }
 
 .addToLearnButton {
-  
-    background-color: aqua;
-    color: darkgreen;
-    text-transform: capitalize;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 5px 10px;
-    margin: 5px;
-    border: 1px soid green;
-    border-radius: 5px;
-  
+  background-color: aqua;
+  color: darkgreen;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px soid green;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pleaceToLearnHeader {
+  color: darkgreen;
+  font-size: 28px;
+  font-weight: 500;
 }

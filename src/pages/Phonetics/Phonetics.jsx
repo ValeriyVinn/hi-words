@@ -41,7 +41,7 @@ const Phonetics = () => {
       {videoData.map((video, index) => (
         <div className={css.article} key={video.id}>
           <div className={css.chart}>
-            <h2>{video.title}</h2>
+            <h2 className={css.phoneticsSectionHeader}>{video.title}</h2>
 
             <button
               className={css.btnWatchVideo}

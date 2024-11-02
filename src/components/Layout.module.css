@@ -46,8 +46,6 @@
 }
 
 .mainMenu_interview:hover .dropdownMenu,
-.mainMenu_intervie:focus .dropdownMenu {
+.mainMenu_interview:focus-within .dropdownMenu {
   display: block;
 }
-
-/* ----------- */
