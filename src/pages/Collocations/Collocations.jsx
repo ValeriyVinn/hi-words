@@ -8,7 +8,9 @@ const Collocations = () => {
       <div className={css.article}>
         <h2>Take</h2>
         <p>to click the button to start reading</p>
-        <ul className={css.orderedList}>
+
+<div className={css.flex}>
+          <ul className={css.orderedList}>
          <li><button className={css.collocationButton}>Take action<span className={css.tooltiptext}>to do something to solve a problem</span></button></li>
          <li><button className={css.collocationButton}>Take a break<span className={css.tooltiptext}>to stop working for a short period of time</span></button></li>
          <li><button className={css.collocationButton}>Take care<span className={css.tooltiptext}>to be careful or look after someone/something</span></button></li>
@@ -25,7 +27,11 @@ const Collocations = () => {
          <li><button className={css.collocationButton}>Take advantage<span className={css.tooltiptext}>to make use of something for your benefit</span></button></li>
          <li><button className={css.collocationButton}>Take a turn<span className={css.tooltiptext}>to switch or alternate in doing something</span></button></li>
       </ul>
+      <div className={css.articleToRead}></div>
       </div>
+</div>
+
+
       
 
 

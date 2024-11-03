@@ -7,6 +7,20 @@
     background-color: rgb(247, 246, 246);
   }
 
+  .articleToRead {
+    border: 1px solid green;
+    padding: 20px;
+    border-radius: 5px;
+    /* margin: 10px; */
+    width: 85%;
+    background-color: rgb(247, 246, 246);
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .orderedList > li {
     margin-bottom: 7px;
   }
