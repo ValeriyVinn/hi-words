@@ -1,0 +1,143 @@
+{
+    "take": {
+      "buttons": [
+        {
+          "text": "Take action",
+          "tooltip": "to do something to solve a problem"
+        },
+        {
+          "text": "Take a break",
+          "tooltip": "to stop working for a short period of time"
+        },
+        {
+          "text": "Take care",
+          "tooltip": "to be careful or look after someone/something"
+        },
+        {
+          "text": "Take responsibility",
+          "tooltip": "to accept being in charge of something"
+        },
+        {
+          "text": "Take part",
+          "tooltip": "to participate in something"
+        },
+        {
+          "text": "Take a chance",
+          "tooltip": "to risk something"
+        },
+        {
+          "text": "Take a seat",
+          "tooltip": "to sit down"
+        },
+        {
+          "text": "Take notes",
+          "tooltip": "to write down important information"
+        },
+        {
+          "text": "Take a shower",
+          "tooltip": "to clean yourself by washing"
+        },
+        {
+          "text": "Take a trip",
+          "tooltip": "to go on a journey"
+        },
+        {
+          "text": "Take time",
+          "tooltip": "to spend time on something"
+        },
+        {
+          "text": "Take into account",
+          "tooltip": "to consider something"
+        },
+        {
+          "text": "Take a look",
+          "tooltip": "to examine or check something"
+        },
+        {
+          "text": "Take advantage",
+          "tooltip": "to make use of something for your benefit"
+        },
+        {
+          "text": "Take a turn",
+          "tooltip": "to switch or alternate in doing something"
+        }
+      ]
+    },
+    "make": {
+      "buttons": [
+        {
+          "text": "Make a decision",
+          "tooltip": "to choose or decide"
+        },
+        {
+          "text": "Make an effort",
+          "tooltip": "to try hard to achieve something"
+        },
+        {
+          "text": "Make a mistake",
+          "tooltip": "to do something incorrectly"
+        },
+        {
+          "text": "Make a difference",
+          "tooltip": "to have a positive effect or impact"
+        },
+        {
+          "text": "Make progress",
+          "tooltip": "to advance or improve"
+        },
+        {
+          "text": "Make a choice",
+          "tooltip": "to select one option over another"
+        },
+        {
+          "text": "Make a promise",
+          "tooltip": "to commit to doing something"
+        },
+        {
+          "text": "Make a plan",
+          "tooltip": "to prepare steps for achieving something"
+        },
+        {
+          "text": "Make an appointment",
+          "tooltip": "to set a date or time to meet"
+        },
+        {
+          "text": "Make money",
+          "tooltip": "to earn or generate income"
+        },
+        {
+          "text": "Make a suggestion",
+          "tooltip": "to propose an idea"
+        },
+        {
+          "text": "Make an impression",
+          "tooltip": "to create an impact, often memorable"
+        },
+        {
+          "text": "Make a wish",
+          "tooltip": "to hope for something"
+        },
+        {
+          "text": "Make a list",
+          "tooltip": "to write down a series of items"
+        },
+        {
+          "text": "Make sense",
+          "tooltip": "to be logical or reasonable"
+        },
+        {
+          "text": "Make friends",
+          "tooltip": "to develop friendships"
+        },
+        {
+          "text": "Make fun of",
+          "tooltip": "to mock or tease"
+        },
+        {
+          "text": "Make a habit",
+          "tooltip": "to develop a regular behavior"
+        }
+      ]
+    }
+  }
+  

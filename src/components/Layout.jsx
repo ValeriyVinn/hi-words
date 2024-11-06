@@ -19,34 +19,24 @@ const Layout = () => {
           </li>
         </ul>
 
-        <div className={css.secondMenu}>
-          <nav className={css.leftMenu}>
-            <NavLink to="/phonetics" className={css.leftMenu_phonetics}>
-              Phonetics
-            </NavLink>
-          </nav>
+        <ul className={css.secondMenu}>
+          <ul className={css.leftMenu}>
+            <li className={css.leftMenu_phonetics}>
+              <NavLink to="/phonetics">Phonetics</NavLink>
+            </li>
+          </ul>
 
-          <nav className={css.rightMenu}>
-            <ul>
-              <li>
-                <NavLink
-                  to="phrasal-verbs"
-                  className={css.rightMenu_phrasalVerbs}
-                >
-                  Phrasal Verbs
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="collocations"
-                  className={css.rightMenu_collocations}
-                >
-                  Collocations
-                </NavLink>
-              </li>
-            </ul>
-          </nav>
-        </div>
+          <ul className={css.rightMenu}>
+            <li className={css.rightMenu_phrasalVerbs}>
+              <NavLink to="phrasal-verbs">Phrasal Verbs</NavLink>
+            </li>
+            <li className={css.rightMenu_collocations}>
+              <NavLink to="collocations">Collocations</NavLink>
+            </li>
+          </ul>
+        </ul>
+
+
       </header>
       <main>
         <Outlet />

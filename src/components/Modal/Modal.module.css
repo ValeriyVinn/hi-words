@@ -26,9 +26,6 @@
     top: 1px;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
-    /* padding-bottom: 15px; */
-    /* padding-top: 0; */
     right: 1px;
     background: none;
     color: blue;
@@ -37,7 +34,6 @@
     background-color: white;
     border:none;
     font-size: 40px;
-    /* font-weight: 800; */
     cursor: pointer;
     border-radius: 50%;
   }
