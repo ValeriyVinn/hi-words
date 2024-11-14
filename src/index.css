@@ -34,7 +34,54 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+:root {
+  /* Кольорова схема */
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --primary-border-color: navy;
+  --secondary-border-color: yellow;
+
+
+  /* Розміри шрифтів */
+  --font-size-base: 16px;
+  --font-size-large: 1.25rem;
+  --font-size-small: 0.875rem;
+
+  /* Інші змінні */
+  --border-radius: 4px;
+  --spacing-unit: 1rem;
+}
+
+body {
+  font-size: var(--font-size-base);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+/*? Стилі базових компонентів: */
+/* Кнопки навігації */
+/* Робочі кнопки */
+/* Стилі Article */
+/* Стилі вкладеного Article */
+/* Стилі Аккордеона */
+
+/* a {
+  color: red;
+} */
+
+.header {
+  background-color: red;
+}
+
+.headerButton {
+  
 }

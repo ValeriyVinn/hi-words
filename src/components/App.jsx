@@ -11,8 +11,6 @@ import InterviewJavaScript from 'pages/Interview/InterviewJavaScript';
 import InterviewReact from 'pages/Interview/InterviewReact';
 import InterviewNode from 'pages/Interview/InterviewNode';
 
-
-
 const App = () => {
   return (
     <div>
@@ -21,7 +19,10 @@ const App = () => {
           <Route index element={<HiWords />} />
 
           <Route path="interview-markup" element={<InterviewMarkup />} />
-          <Route path="interview-java-script" element={<InterviewJavaScript />} />
+          <Route
+            path="interview-java-script"
+            element={<InterviewJavaScript />}
+          />
           <Route path="interview-react" element={<InterviewReact />} />
           <Route path="interview-node" element={<InterviewNode />} />
 
