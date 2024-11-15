@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import css from './Phonetics.module.css';
 import videoData from '../../components/Data/PhoneticsVideoData.json';
 import Modal from '../../components/Modal/Modal';
-import Timer from 'components/Timer/Timer';
+// import Timer from 'components/Timer/Timer';
 
 const Phonetics = () => {
   const [isModalOpen, setModalOpen] = useState(false);
