@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import DropdownInterview from './DropdownInterview/DropdownInterview';
 import css from './Layout.module.css';
+import Timer from './Timer/Timer';
 // import css from '../index.css'
 
 const Layout = () => {
@@ -37,7 +38,7 @@ const Layout = () => {
           </ul>
         </ul>
 
-
+<Timer/>
       </header>
       <main>
         <Outlet />

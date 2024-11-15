@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import css from './Phonetics.module.css';
 import videoData from '../../components/Data/PhoneticsVideoData.json';
 import Modal from '../../components/Modal/Modal';
+import Timer from 'components/Timer/Timer';
 
 const Phonetics = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -38,6 +39,7 @@ const Phonetics = () => {
 
   return (
     <div>
+      {/* <Timer/> */}
       {videoData.map((video, index) => (
         <div className={css.article} key={video.id}>
           <div className={css.chart}>

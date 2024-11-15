@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CollocationData from '../../components/Data/CollocationData.json';
+import AudioPlayer from 'components/AudioPlayer/AudioPlayer';
 import css from './Colocations.module.css';
 
 const Collocations = () => {
@@ -34,7 +35,7 @@ const Collocations = () => {
   return (
     <div className={css.article}>
       <h1>Collocations</h1>
-
+      <AudioPlayer />
       {Object.entries(CollocationData).map(([key, data]) => (
         <div key={key} className={css.articleAccordeon}>
           <p className={css.accordeonButton} onClick={() => toggleAccordion(key)}>
