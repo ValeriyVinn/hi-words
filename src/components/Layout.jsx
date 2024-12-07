@@ -37,8 +37,7 @@ const Layout = () => {
             </li>
           </ul>
         </ul>
-
-<Timer/>
+       <Timer />
       </header>
       <main>
         <Outlet />

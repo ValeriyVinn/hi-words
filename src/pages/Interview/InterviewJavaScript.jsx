@@ -1,6 +1,4 @@
-
-
-import css from './InterviewJavaScript.module.css'
+import css from './InterviewJavaScript.module.css';
 
 const InterviewJavaScript = () => {
   return (
@@ -9,7 +7,9 @@ const InterviewJavaScript = () => {
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
-          <dd className={css.questionText}>What data types are present in JavaScript?</dd>
+          <dd className={css.questionText}>
+            What data types are present in JavaScript?
+          </dd>
 
           <dt>Answer:</dt>
           <dd>
@@ -151,7 +151,7 @@ const InterviewJavaScript = () => {
               <li>
                 Checking if a value is NaN:
                 <pre className={css.code}>
-                   const value = NaN; <br />
+                  const value = NaN; <br />
                   console.log(isNaN(value)); // true
                 </pre>
               </li>
@@ -164,8 +164,182 @@ const InterviewJavaScript = () => {
           literally means "Not-a-Number."
         </p>
       </div>
-      <div className={css.container}></div>
-      <div className={css.container}></div>)
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What is the difference between null and undefined?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <ol className={css.orderedList}>
+              <p>undefined represents the default value of:</p>
+              <li> A variable declared without initialization;</li>
+              <li>a function that does not return anything explicitly;</li>
+              <li>a non-existent property of an object.</li>
+            </ol>
+            <p>
+              null is the value of "no value". Assigned to a variable
+              explicitly.
+            </p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>
+            <ol className={css.orderedList}>
+              <li>
+                Definition
+                <ul>
+                  <li>
+                    null: Represents the intentional absence of any object
+                    value. It is explicitly assigned to indicate "no value" or
+                    "empty value."
+                  </li>
+                  <li>
+                    undefined: Indicates that a variable has been declared but
+                    has not yet been assigned a value. It represents a state of
+                    "not defined."
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Type
+                <ul>
+                  <li>
+                    null: Its type is object (this is a historical bug in
+                    JavaScript and not an actual object).
+                    <pre className={css.code}>
+                      console.log(typeof null); // "object"
+                    </pre>
+                  </li>
+
+                  <li>
+                    undefined: Its type is undefined.
+                    <pre className={css.code}>
+                      console.log(typeof undefined); // "undefined"
+                    </pre>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                When They Occur
+                <ul>
+                  <li>
+                    null: Assigned explicitly by the programmer to indicate "no
+                    value."
+                    <pre className={css.code}>
+                      let empty = null; <br />
+                      console.log(empty); // null
+                    </pre>
+                  </li>
+                  <li>
+                    undefined: Happens automatically when:
+                    <ul>
+                      <li>
+                        A variable is declared but not assigned a value.
+                        <pre className={css.code}>
+                          let x; <br />
+                          console.log(x); // undefined
+                        </pre>
+                      </li>
+                      <li>
+                        A function does not return a value.
+                        <pre className={css.code}>
+                          function doNothing() {'{'}
+                          {'}'} <br />
+                          console.log(doNothing()); // undefined
+                        </pre>
+                      </li>
+                      <li>
+                        Accessing a non-existent property on an object.
+                        <pre className={css.code}>
+                          let obj = {'{'}
+                          {'}'};<br />
+                          console.log(obj.name); // undefined
+                        </pre>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Usage
+                <ul>
+                  <li>
+                    null: Used intentionally to denote the absence of a value or
+                    "empty."
+                    <pre className={css.code}>
+                      let user = null; // No user is currently logged in
+                    </pre>
+                  </li>
+                  <li>
+                    undefined: Denotes a variable that has been declared but not
+                    initialized, or a function property or parameter with no
+                    explicit value.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Equality Comparison
+                <ul>
+                  <li>
+                    Using ==:
+                    <pre className={css.code}>
+                      console.log(null == undefined); // true
+                    </pre>
+                  </li>
+                  <li>
+                    Using === (strict equality):
+                    <pre className={css.code}>
+                      console.log(null === undefined); // false
+                    </pre>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+
+            <table className={css.table}>
+              <caption>Summary Table</caption>
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <td>null</td>
+                  <td>undefined</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Meaning</th>
+                  <td>Explicitly "no value"</td>
+                  <td>Uninitialized variable or missing value</td>
+                </tr>
+                <tr>
+                  <th>Type</th>
+                  <td>object</td>
+                  <td>undefined</td>
+                </tr>
+                <tr>
+                  <th>Assigned by</th>
+                  <td>Programmer explicitly</td>
+                  <td>JavaScript automatically</td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+        </dl>
+      </div>
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>here will be the answer</dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      )
     </div>
   );
 };

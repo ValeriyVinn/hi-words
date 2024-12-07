@@ -48,7 +48,13 @@ const Timer = () => {
 
   return (
     <div className={css.restTimer}>
-        <h3 className={css.restTimerHeader}>Training timer</h3>
+      <a
+        href="https://www.youtube.com/watch?v=wIVst5U9wDM"  target="_blank" rel="noreferrer"
+        className={css.restTimerHeader} 
+      >
+        Training timer
+      </a>
+      {/* <h3 className={css.restTimerHeader}>Training timer</h3> */}
       <div>
         <label>
           Attempt:
@@ -93,7 +99,11 @@ const Timer = () => {
           />
         </label>
       </div>
-      <button onClick={startTimer} disabled={isRunning} className={css.buttonTimer}>
+      <button
+        onClick={startTimer}
+        disabled={isRunning}
+        className={css.buttonTimer}
+      >
         Start Timer
       </button>
 
@@ -101,7 +111,7 @@ const Timer = () => {
         <Modal closeModal={() => setModalOpen(false)}>
           <div className={css.restTimerModal}>
             {/* <h2 className={css.restTimerHeader}>Rest Timer</h2> */}
-            <p  className={css.restTimerCountdown}>
+            <p className={css.restTimerCountdown}>
               {Math.floor(countdown / 60)
                 .toString()
                 .padStart(2, '0')}

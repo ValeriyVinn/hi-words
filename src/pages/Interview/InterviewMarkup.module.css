@@ -1,4 +1,11 @@
+ul {
+  list-style:initial;
+  margin-left: 20px;
+}
+/* li {
+    
 
+} */
   
 .container {
     display: block;
@@ -35,7 +42,7 @@
   .orderedList {
     margin-left: 20px;
   }
-  
+
   .questionText {
     font-size: 20px;
     font-weight: 500;

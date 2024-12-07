@@ -41,3 +41,17 @@ dt {
   font-weight: 500;
 }
 
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+caption {
+  text-align: left;
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 5px;
+}

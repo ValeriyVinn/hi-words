@@ -34,6 +34,8 @@
 .restTimerHeader {
     /* font-size: 40px; */
     color: green;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
