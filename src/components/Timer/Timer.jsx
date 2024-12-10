@@ -48,12 +48,23 @@ const Timer = () => {
 
   return (
     <div className={css.restTimer}>
-      <a
+      <div>
+           <a
         href="https://www.youtube.com/watch?v=wIVst5U9wDM"  target="_blank" rel="noreferrer"
+        // https://www.youtube.com/shorts/0zQaNicTyCM
         className={css.restTimerHeader} 
       >
         Training timer
       </a>
+      <a
+        href="https://www.youtube.com/shorts/0zQaNicTyCM"  target="_blank" rel="noreferrer"
+        // 
+        className={css.restTimerHeader} 
+      >
+        En
+      </a>   
+      </div>
+
       {/* <h3 className={css.restTimerHeader}>Training timer</h3> */}
       <div>
         <label>
