@@ -15,6 +15,12 @@ dt {
   color: blue;
   font-weight: 500;
 }
+.transcription {
+  padding-left: 10px;
+  border-left: 2px solid blue;
+  border-radius: 10px;
+  font-weight: 500;
+}
 
 .code {
   border-radius: 3px;

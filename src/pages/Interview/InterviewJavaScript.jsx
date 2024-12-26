@@ -4,6 +4,7 @@ const InterviewJavaScript = () => {
   return (
     <div>
       <h1>Java Script Interview</h1>
+      {/* ---------------------- */}
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
@@ -13,11 +14,22 @@ const InterviewJavaScript = () => {
 
           <dt>Answer:</dt>
           <dd>
-            There are eight data types. Seven primitive and one complex data
-            type. Primitive types: number, string, boolean, symbol, bigInt,
-            null, undefined. Complex type - object. It is used for collections
-            of data and for declaring more complex entities. It is also passed
-            by reference, and simple data types by value.
+            <p>
+              There are eight data types in JavaScript: seven primitive types
+              and one complex type. The primitive types are: number, string,
+              boolean, symbol, bigInt, null, and undefined. The complex type is
+              an object. Objects are used for collections of data and for
+              defining more complex entities. Primitive types are passed by
+              value, while objects are passed by reference.
+            </p>
+            <p className={css.transcription}>
+              ðɛr ɑr eɪt ˈdeɪtə taɪps ɪn ˈdʒɑːvəˌskrɪpt: ˈsɛvən ˈprɪmətɪv taɪps
+              ənd wʌn ˈkɑmplɛks taɪp. ðə ˈprɪmətɪv taɪps ɑr: ˈnʌmbɚ, strɪŋ,
+              ˈbuliən, ˈsɪmbəl, ˈbɪɡɪnt, nʌl, ənd ˌʌndɪˈfaɪnd. ðə ˈkɑmplɛks taɪp
+              ɪz ən ˈɑːbdʒɛkt. ˈɑːbdʒɛkts ɑr juzd fɔr kəˈlɛkʃənz əv ˈdeɪtə ənd
+              fɔr dɪˈfaɪnɪŋ mɔr ˈkɑmplɛks ˈɛntətiz. ˈprɪmətɪv taɪps ɑr ˈpæst baɪ
+              ˈvælju, waɪl ˈɑːbdʒɛkts ɑr ˈpæst baɪ ˈrɛfɚəns.
+            </p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>
@@ -105,6 +117,7 @@ const InterviewJavaScript = () => {
           </dd>
         </dl>
       </div>
+      {/* ---------------------- */}
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
@@ -112,10 +125,18 @@ const InterviewJavaScript = () => {
 
           <dt>Answer:</dt>
           <dd>
-            NaN (not a number) is the value obtained as a result of performing a
-            numeric operation on a non-numeric value. Its data type is number.
-            NaN is not equal to itself. Checking for NaN can be done using
-            Number.isNaN
+            <p>
+              NaN (Not-a-Number) is a value obtained as a result of performing a
+              numeric operation on a non-numeric value. Its data type is number.
+              NaN is not equal to itself. Checking for NaN can be done using
+              Number.isNaN.
+            </p>
+            <p className={css.transcription}>
+              næn (ˌnɑtəˈnʌmbɚ) ɪz ə ˈvælju əbˈteɪnd æz ə rɪˈzʌlt əv pɚˈfɔrmɪŋ ə
+              nuˈmɛrɪk ˌɑpəˈreɪʃən ɑn ə ˌnɑn-nuˈmɛrɪk ˈvælju. ɪts ˈdeɪtə taɪp ɪz
+              ˈnʌmbɚ. næn ɪz nɑt ɪˈkwəl tə ɪtˈsɛlf. ˈtʃɛkɪŋ fɔr næn kæn bi dʌn
+              ˈjuzɪŋ ˈnʌmbɚ.ɪzˈnæn.
+            </p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>
@@ -164,6 +185,7 @@ const InterviewJavaScript = () => {
           literally means "Not-a-Number."
         </p>
       </div>
+      {/* ---------------------- */}
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
@@ -173,16 +195,28 @@ const InterviewJavaScript = () => {
 
           <dt>Answer:</dt>
           <dd>
+            <p>Undefined represents the default value of:</p>
             <ol className={css.orderedList}>
-              <p>undefined represents the default value of:</p>
               <li> A variable declared without initialization;</li>
-              <li>a function that does not return anything explicitly;</li>
-              <li>a non-existent property of an object.</li>
+              <li>A function that does not explicitly return a value;</li>
+              <li>A non-existent property of an object.</li>
             </ol>
             <p>
-              null is the value of "no value". Assigned to a variable
-              explicitly.
+              null represents the value of "no value" and is explicitly assigned
+              to a variable.
             </p>
+            <div className={css.transcription}>
+              <p>ˌʌndɪˈfaɪnd rɛprɪˈzɛnts ðə dɪˈfɔlt ˈvælju əv:</p>
+              <ol className={css.orderedList}>
+                <li>ə ˈvɛriəˌbəl dɪˈklɛrd wɪˈðaʊt ˌɪnɪʃəlaɪˈzeɪʃən;</li>
+                <li>ə ˈfʌŋkʃən ðæt dʌz nɑt ɪkˈsplɪsɪtli rɪˈtɝn ə ˈvælju;</li>
+                <li>ə ˌnɑn-ɪgˈzɪstənt ˈprɑpɚti əv ən ˈɑbdʒɛkt.</li>
+              </ol>
+              <p>
+                ˈnʌl rɛprɪˈzɛnts ðə ˈvælju əv "noʊ ˈvælju" ənd ɪz ɪkˈsplɪsɪtli
+                əˈsaɪnd tə ə ˈvɛriəˌbəl.
+              </p>
+            </div>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>
@@ -245,16 +279,15 @@ const InterviewJavaScript = () => {
                       <li>
                         A function does not return a value.
                         <pre className={css.code}>
-                          function doNothing() {'{'}
-                          {'}'} <br />
+                          function doNothing()
+                          <br />
                           console.log(doNothing()); // undefined
                         </pre>
                       </li>
                       <li>
                         Accessing a non-existent property on an object.
                         <pre className={css.code}>
-                          let obj = {'{'}
-                          {'}'};<br />
+                          let obj = ;<br />
                           console.log(obj.name); // undefined
                         </pre>
                       </li>
@@ -328,18 +361,97 @@ const InterviewJavaScript = () => {
           </dd>
         </dl>
       </div>
+      {/* ---------------------- */}
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
           <dd className={css.questionText}>here will be the question</dd>
 
           <dt>Answer:</dt>
-          <dd>here will be the answer</dd>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
         </dl>
       </div>
-      )
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */})
     </div>
   );
 };

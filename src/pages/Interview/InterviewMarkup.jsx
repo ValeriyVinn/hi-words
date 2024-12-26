@@ -4,6 +4,7 @@ const InterviewMarkup = () => {
   return (
     <div>
       <h1>Markup Interview</h1>
+      {/* ---------------------- */}
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
@@ -13,9 +14,17 @@ const InterviewMarkup = () => {
 
           <dt>Answer:</dt>
           <dd>
-            DOCTYPE specifies the type of the current document. This is
-            necessary for the browser to understand how to interpret the current
-            web page, since HTML exists in several versions.
+            <p>
+              The DOCTYPE specifies the type of the current document. It is
+              necessary for the browser to understand how to interpret the
+              current web page because HTML exists in several versions.
+            </p>
+            <p className={css.transcription}>
+              ðə ˈdaʊkˌtaɪp ˈspɛsəˌfaɪz ðə taɪp əv ðə ˈkɝːrənt ˈdɑːkjəmənt. ɪt
+              ɪz ˈnɛsəˌsɛri fɔr ðə ˈbraʊzɚ tu ˌʌndɚˈstænd haʊ tə ˌɪntɚˈprɪt ðə
+              ˈkɝːrənt wɛb peɪdʒ bɪˈkəz ˌeɪtʃ-ti-ɛm-ˈɛl ɪɡˈzɪsts ɪn ˈsɛvrəl
+              ˈvɝːʒənz.
+            </p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>
@@ -58,6 +67,7 @@ const InterviewMarkup = () => {
           </dd>
         </dl>
       </div>
+      {/* ---------------------- */}
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
@@ -68,9 +78,16 @@ const InterviewMarkup = () => {
 
           <dt>Answer:</dt>
           <dd>
-            The browser will try to display the page in compatibility mode
-            (quirks mode). This may cause the page to display differently in
-            different browsers.
+            <p>
+              The browser will attempt to display the page in compatibility mode
+              (quirks mode). This might cause the page to render differently in
+              various browsers.
+            </p>
+            <p className={css.transcription}>
+              ðə ˈbraʊzɚ wɪl əˈtɛmpt tə dɪˈspleɪ ðə peɪdʒ ɪn kəmˌpætəˈbɪləti
+              moʊd (kwɝːks moʊd). ðɪs maɪt kɔz ðə peɪdʒ tə ˈrɛndɚ ˈdɪfrəntli ɪn
+              ˈvɛriəs ˈbraʊzɚz.
+            </p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>
@@ -123,18 +140,17 @@ const InterviewMarkup = () => {
           </dd>
         </dl>
       </div>
+      {/* ---------------------- */}
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
           <dd className={css.questionText}>Why are meta tags needed?</dd>
 
           <dt>Answer:</dt>
+          <p>          Meta tags are elements that provide search engines with additional information about a webpage. For example, search engines refer to meta tags to retrieve a description of the site, keywords, and other data. Meta tags for a site are placed inside the &lt;head&gt; section.</p>
+          <p className={css.transcription}>ˈmɛtə ˌtæɡz ɑːr ˈɛləmənts ðæt prəˈvaɪd ˈsɝːtʃ ˌɛndʒənz wɪð əˈdɪʃənəl ˌɪnfɚˈmeɪʃən əˈbaʊt ə ˈwɛbˌpeɪdʒ. fɔr ɪɡˈzæmpəl, ˈsɝːtʃ ˌɛndʒənz rəˈfɝː tə ˈmɛtə ˌtæɡz tə rəˈtriːv ə dəˈskrɪpʃən əv ðə saɪt, ˈkiˌwɝːdz, ənd ˈʌðɚ ˈdeɪtə. ˈmɛtə ˌtæɡz fɔr ə saɪt ɑːr pleɪst ɪnˈsaɪd ðə &lt;hɛd&gt; ˈsɛkʃən.</p>
           <dd>
-            Meta tags are tags that provide search engines with additional
-            information about a page on a website. For example, search engine
-            engines look to meta tags to retrieve a description of the site,
-            keywords, and other data. Meta tags for a site are placed inside the
-            &lt;head&gt;.
+
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>
@@ -237,17 +253,97 @@ const InterviewMarkup = () => {
           </dd>
         </dl>
       </div>
+      {/* ---------------------- */}
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
           <dd className={css.questionText}>here will be the question</dd>
 
           <dt>Answer:</dt>
-          <dd>here will be the answer</dd>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
         </dl>
       </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
     </div>
   );
 };
