@@ -1198,7 +1198,7 @@ const InterviewMarkup = () => {
             <p>
               <b>A linear gradient</b> is created using two or more colors with
               a specified direction of distribution. If no direction is
-              specified, the default is top-to-bottom. <b>A radial gradient</b>
+              specified, the default is top-to-bottom. <b>A radial gradient </b>
               differs from a linear gradient in that the colors radiate from the
               center of the gradient and spread outward evenly, forming a
               circle.
