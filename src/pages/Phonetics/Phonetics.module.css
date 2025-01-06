@@ -44,12 +44,9 @@
   border-radius: 5px;
 }
 
-
-
 /* ! accordeon -- */
 .accordion {
   display: block;
-  margin-bottom: 10px;
   background-color: rgb(212, 255, 230);
   cursor: pointer;
   padding: 10px;
@@ -65,8 +62,9 @@
 }
 
 .panel {
-  padding: 0 10px;            
+  padding: 0 10px;
   background-color: white;
   overflow: hidden;
   transition: max-height 0.3s ease;
+  margin-bottom: 10px;
 }

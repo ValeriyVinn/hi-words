@@ -275,20 +275,34 @@ const InterviewMarkup = () => {
           <dt>Answer:</dt>
           <dd>
             <p>
-              Block elements are the basis used for page layout. Such an element
-              is a rectangle that by default takes up the entire available width
-              of the page, and the height of the element depends on its content.
-              Such an element always starts on a new line. A block element can
-              contain other block and inline elements. Examples of block
-              elements: &lt;div&gt;, &lt;p&gt;, &lt;ul&gt;, &lt;ol&gt;,
-              &lt;h1&gt; Unlike a block element, an inline element does not move
-              to a new line, but is located on the same line as the previous
-              element. The width of an inline element depends on its content.
-              Block elements cannot be nested within inline elements. Examples
-              of inline elements: &lt;a&gt;, &lt;span&gt;, &lt;strong&gt;,
-              &lt;em&gt;, &lt;img&gt;
+              Block elements are the foundation for page layout. A block element
+              is a rectangular container that, by default, occupies the entire
+              available width of the page, while its height depends on its
+              content. Such elements always start on a new line. A block element
+              can contain other block elements as well as inline elements.
+              Examples of block elements include &lt;div&gt;, &lt;p&gt;,
+              &lt;ul&gt;, &lt;ol&gt;, and &lt;h1&gt;. In contrast, an inline
+              element does not start on a new line but is placed on the same
+              line as the previous element. The width of an inline element
+              depends on its content. Block elements cannot be nested within
+              inline elements. Examples of inline elements include &lt;a&gt;,
+              &lt;span&gt;, &lt;strong&gt;, &lt;em&gt;, and &lt;img&gt;.
             </p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p className={css.transcription}>
+              blɑk ˈɛləmənts ɑr ðə fəˈndaʊʃən fɔr peɪdʒ ˈleɪˌaʊt. ə blɑk
+              ˈɛləmənt ɪz ə ˈrɛktæŋɡjələr kənˈteɪnɚ ðæt, baɪ dɪˈfɔlt, ˈɑkjəˌpaɪz
+              ði ɪnˈtaɪɚ əˈveɪləbəl wɪdθ əv ðə peɪdʒ, waɪl ɪts haɪt dɪˈpɛndz ɑn
+              ɪts ˈkɑntɛnt. sʌtʃ ˈɛləmənts ˈɔlweɪz stɑrt ɑn ə nu ˈlaɪn. ə blɑk
+              ˈɛləmənt kæn kənˈteɪn ˈʌðɚ blɑk ˈɛləmənts æz wɛl æz ˈɪnˌlaɪn
+              ˈɛləmənts. ɪɡˈzæmpəlz əv blɑk ˈɛləmənts ɪnˈklud &lt;dɪv&gt;,
+              &lt;pi&gt;, &lt;ju&nbsp;ɛl&gt;, &lt;oʊ&nbsp;ɛl&gt;, ænd
+              &lt;eɪtʃ&nbsp;wʌn&gt;. ɪn ˈkɑnˌtræst, ən ˈɪnˌlaɪn ˈɛləmənt dʌz nɑt
+              stɑrt ɑn ə nu ˈlaɪn bət ɪz ˈpleɪst ɑn ðə seɪm ˈlaɪn æz ðə ˈpriviəs
+              ˈɛləmənt. ðə wɪdθ əv ən ˈɪnˌlaɪn ˈɛləmənt dɪˈpɛndz ɑn ɪts
+              ˈkɑntɛnt. blɑk ˈɛləmənts ˈkænɑt bi ˈnɛstɪd wɪˈðɪn ˈɪnˌlaɪn
+              ˈɛləmənts. ɪɡˈzæmpəlz əv ˈɪnˌlaɪn ˈɛləmənts ɪnˈklud &lt;eɪ&gt;,
+              &lt;spæn&gt;, &lt;strɔŋ&gt;, &lt;ɛm&gt;, ænd &lt;ɪmɪdʒ&gt;.
+            </p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
@@ -305,11 +319,9 @@ const InterviewMarkup = () => {
           <dt>Answer:</dt>
           <dd>
             <p>
-              This may occur because some browsers may not support certain
-              operating system characters. The encoding may also be different.
-              Or the required font with icons is not connected.
+            This may happen because some browsers do not support certain operating system characters. The encoding might also be different, or the required font containing the icons may not be connected.
             </p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p className={css.transcription}>ðɪs meɪ ˈhæpən bɪˈkəz sʌm ˈbraʊzɚz du nɑt səˈpɔrt ˈsɝːtn ˈɑpɚˌeɪtɪŋ ˈsɪstəm ˈkɛrɪktɚz. ði ɪnˈkoʊdɪŋ maɪt ˈɔlsoʊ bi ˈdɪfɚənt, ɔr ðə rɪˈkwaɪrd fɑnt kənˈteɪnɪŋ ði ˈaɪkɑnz meɪ nɑt bi kəˈnɛktɪd.</p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
@@ -326,12 +338,9 @@ const InterviewMarkup = () => {
           <dt>Answer:</dt>
           <dd>
             <p>
-              HTML supports six different types of headings. These headings are
-              distinguished by their font size, starting with the largest. h1 is
-              the largest heading. h6 is the smallest heading. There should only
-              be 1 h1 on a page.
+            HTML supports six different types of headings. These headings are distinguished by their font size, starting with the largest. &lt;h1&gt; is the largest heading, and &lt;h6&gt; is the smallest. Ideally, there should be only one &lt;h1&gt; on a page.
             </p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p className={css.transcription}>ˌeɪtʃ-ti-ɛm-ˈɛl səˈpɔrts sɪks ˈdɪfrənt taɪps əv ˈhɛdɪŋz. ðiz ˈhɛdɪŋz ɑr dɪˈstɪŋɡwɪʃt baɪ ðɛr fɑnt saɪz, ˈstɑrtɪŋ wɪð ðə ˈlɑrdʒəst. &lt;eɪtʃ-wʌn&gt; ɪz ðə ˈlɑrdʒəst ˈhɛdɪŋ, ənd &lt;eɪtʃ-sɪks&gt; ɪz ðə ˈsmɔləst. aɪˈdiəli, ðɛr ʃʊd bi ˈoʊnli wʌn &lt;eɪtʃ-wʌn&gt; ɑn ə peɪdʒ.</p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
