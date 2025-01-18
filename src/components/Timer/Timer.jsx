@@ -94,7 +94,7 @@ const Timer = () => {
             type="number"
             value={maxDelay}
             onChange={e => setMaxDelay(Number(e.target.value))}
-            max="300"
+            max="600"
           />
         </label>
       </div>

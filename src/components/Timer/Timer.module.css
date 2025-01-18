@@ -19,7 +19,8 @@
 }
 
 .restTimer input {
-    width: 50px;
+    width: 70px;
+    font-size: 26px;
     font-weight: 600;
     color: green;
 }
