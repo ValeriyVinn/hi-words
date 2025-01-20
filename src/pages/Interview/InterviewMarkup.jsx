@@ -355,15 +355,9 @@ const InterviewMarkup = () => {
           <dt>Answer:</dt>
           <dd>
             <p>
-              This layout is focused on structuring HTML documents. It uses tags
-              that divide the code into logical blocks, which clearly show their
-              role and content in the page structure. Semantic layout differs
-              from block layout only in the elements used in structuring the
-              page. In block layout, only the div element is used, while in
-              semantic layout, in addition to div, many other tags are used,
-              such as: header, main, section, footer, nav, aside.
+            This layout focuses on structuring HTML documents. It uses tags to divide the code into logical blocks, clearly showing their role and content within the page structure. Semantic layout differs from block layout only in the elements used to structure the page. In block layout, only the &lt;div&gt; element is used, while in semantic layout, many additional tags are used alongside &lt;div&gt;, such as &lt;header&gt;, &lt;main&gt;, &lt;section&gt;, &lt;footer&gt;, &lt;nav&gt;, and &lt;aside&gt;.
             </p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p className={css.transcription}>ðɪs ˈleɪˌaʊt ˈfoʊkəsɪz ɑn ˈstrʌktʃərɪŋ eɪtʃ-ti-ɛm-ˈɛl ˈdɑkjəmənts. ɪt ˈjuzɪz tæɡz tə dəˈvaɪd ðə koʊd ˈɪntu ˈlɑdʒɪkəl blɑks, ˈklɪrli ˈʃoʊɪŋ ðɛr roʊl ənd ˈkɑntɛnt wɪˈðɪn ðə peɪdʒ ˈstrʌktʃɚ. səˈmæntɪk ˈleɪˌaʊt ˈdɪfɚz frəm blɑk ˈleɪˌaʊt ˈoʊnli ɪn ði ˈɛləmənts ˈjuzd tə ˈstrʌktʃɚ ðə peɪdʒ. ɪn blɑk ˈleɪˌaʊt, ˈoʊnli ðə &lt;dɪv&gt; ˈɛləmənt ɪz ˈjuzd, waɪl ɪn səˈmæntɪk ˈleɪˌaʊt, ˈmɛni əˈdɪʃənəl tæɡz ɑr ˈjuzd əˈlɔŋˌsaɪd &lt;dɪv&gt;, sʌtʃ æz &lt;hɛdɚ&gt;, &lt;meɪn&gt;, &lt;sɛkʃən&gt;, &lt;fʊtɚ&gt;, &lt;næv&gt;, ənd &lt;əˈsaɪd&gt;.</p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
@@ -378,13 +372,9 @@ const InterviewMarkup = () => {
           <dt>Answer:</dt>
           <dd>
             <p>
-              The flow of an HTML document is the order in which elements are
-              displayed on the page. In the usual way, all blocks are displayed
-              in the order in which they are written inside the HTML document.
-              The flow can be changed using CSS rules, for example, using
-              position: absolute.
+            The flow of an HTML document refers to the order in which elements are displayed on the page. By default, all block elements are displayed in the order they are written in the HTML document. However, the flow can be modified using CSS rules, such as with position: absolute.
             </p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p className={css.transcription}>ðə floʊ əv ən eɪtʃ-ti-ɛm-ˈɛl ˈdɑkjəmənt rəˈfɜrz tə ði ˈɔrdɚ ɪn wɪtʃ ˈɛləmənts ɑr dɪˈspleɪd ɑn ðə peɪdʒ. baɪ dɪˈfɔlt, ɔl blɑk ˈɛləmənts ɑr dɪˈspleɪd ɪn ði ˈɔrdɚ ðeɪ ɑr ˈrɪtən ɪn ði eɪtʃ-ti-ɛm-ˈɛl ˈdɑkjəmənt. haʊˈɛvɚ, ðə floʊ kæn bi ˈmɑdəˌfaɪd ˈjuzɪŋ si-ɛs-ɛs rulz, sʌtʃ æz wɪð pəˈzɪʃən: ˈæbsəˌlut.</p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
@@ -401,12 +391,9 @@ const InterviewMarkup = () => {
           <dt>Answer:</dt>
           <dd>
             <p>
-              The first way is to insert the script into the script block. The
-              second way is to include the script by adding a link to the
-              JavaScript file. It is advisable to include all scripts at the end
-              of the body block.
+            The first method is to write the script directly within a &lt;script&gt; block. The second method is to include the script by linking to an external JavaScript file. It is recommended to place all scripts at the end of the &lt;body&gt; block.
             </p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p className={css.transcription}>ðə fɜrst ˈmɛθəd ɪz tə raɪt ðə skrɪpt dəˈrɛktli wɪˈðɪn ə &lt;skrɪpt&gt; blɑk. ðə ˈsɛkənd ˈmɛθəd ɪz tə ɪnˈklud ðə skrɪpt baɪ ˈlɪŋkɪŋ tə ən ɪkˈstɝnəl ˈdʒævəˌskrɪpt faɪl. ɪt ɪz ˌrɛkəˈmɛndɪd tə pleɪs ɔl skrɪpts æt ði ɛnd əv ðə &lt;bɑdi&gt; blɑk.</p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
