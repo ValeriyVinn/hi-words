@@ -60,7 +60,7 @@ const Phonetics = () => {
             }`}
             onClick={() => toggleAccordion(index)}
           >
-            Examples
+            WHAT LETTER SOUNDS LIKE 
           </button>
           <div
             className={css.panel}
