@@ -365,12 +365,12 @@ const InterviewJavaScript = () => {
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
-          <dd className={css.questionText}>here will be the question</dd>
+          <dd className={css.questionText}>What is the difference between strict and loose equality (=== and ==)?</dd>
 
           <dt>Answer:</dt>
           <dd>
-            <p>here will be the answer</p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p>Strict equality compares values by both data type and value. Loose equality converts values to the same type before comparing them.</p>
+            <p className={css.transcription}>strɪkt ɪˈkwɑləti kəmˈpɛrz ˈvæljuz baɪ boʊθ ˈdeɪtə taɪp ænd ˈvælju. lus ɪˈkwɑləti kənˈvɝts ˈvæljuz tə ðə seɪm taɪp bɪˈfɔr kəmˈpɛrɪŋ ðɛm.</p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
