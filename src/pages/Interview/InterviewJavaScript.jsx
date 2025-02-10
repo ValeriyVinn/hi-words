@@ -365,12 +365,22 @@ const InterviewJavaScript = () => {
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
-          <dd className={css.questionText}>What is the difference between strict and loose equality (=== and ==)?</dd>
+          <dd className={css.questionText}>
+            What is the difference between strict and loose equality (=== and
+            ==)?
+          </dd>
 
           <dt>Answer:</dt>
           <dd>
-            <p>Strict equality compares values by both data type and value. Loose equality converts values to the same type before comparing them.</p>
-            <p className={css.transcription}>strɪkt ɪˈkwɑləti kəmˈpɛrz ˈvæljuz baɪ boʊθ ˈdeɪtə taɪp ænd ˈvælju. lus ɪˈkwɑləti kənˈvɝts ˈvæljuz tə ðə seɪm taɪp bɪˈfɔr kəmˈpɛrɪŋ ðɛm.</p>
+            <p>
+              Strict equality compares values by both data type and value. Loose
+              equality converts values to the same type before comparing them.
+            </p>
+            <p className={css.transcription}>
+              strɪkt ɪˈkwɑləti kəmˈpɛrz ˈvæljuz baɪ boʊθ ˈdeɪtə taɪp ænd ˈvælju.
+              lus ɪˈkwɑləti kənˈvɝts ˈvæljuz tə ðə seɪm taɪp bɪˈfɔr kəmˈpɛrɪŋ
+              ðɛm.
+            </p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
@@ -380,37 +390,9 @@ const InterviewJavaScript = () => {
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
-          <dd className={css.questionText}>here will be the question</dd>
-
-          <dt>Answer:</dt>
-          <dd>
-            <p>here will be the answer</p>
-            <p className={css.transcription}>here will be the transcription</p>
+          <dd className={css.questionText}>
+            Why is the result of comparing two similar objects false?
           </dd>
-          <dt>Answer (GPT):</dt>
-          <dd>here will be the answer</dd>
-        </dl>
-      </div>
-      {/* ---------------------- */}
-      <div className={css.container}>
-        <dl>
-          <dt>Question:</dt>
-          <dd className={css.questionText}>here will be the question</dd>
-
-          <dt>Answer:</dt>
-          <dd>
-            <p>here will be the answer</p>
-            <p className={css.transcription}>here will be the transcription</p>
-          </dd>
-          <dt>Answer (GPT):</dt>
-          <dd>here will be the answer</dd>
-        </dl>
-      </div>
-      {/* ---------------------- */}
-      <div className={css.container}>
-        <dl>
-          <dt>Question:</dt>
-          <dd className={css.questionText}>here will be the question</dd>
 
           <dt>Answer:</dt>
           <dd>
@@ -425,7 +407,9 @@ const InterviewJavaScript = () => {
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
-          <dd className={css.questionText}>here will be the question</dd>
+          <dd className={css.questionText}>
+            How to check 2 objects for identity?
+          </dd>
 
           <dt>Answer:</dt>
           <dd>
@@ -440,7 +424,73 @@ const InterviewJavaScript = () => {
       <div className={css.container}>
         <dl>
           <dt>Question:</dt>
-          <dd className={css.questionText}>here will be the question</dd>
+          <dd className={css.questionText}>How to make a copy of an object?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What is the difference between var, let, and const variables?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How to find out if an object is an array?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What array iterative methods do you know?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>How to merge arrays?</dd>
 
           <dt>Answer:</dt>
           <dd>
@@ -452,6 +502,630 @@ const InterviewJavaScript = () => {
         </dl>
       </div>
       {/* ---------------------- */})
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How to find out if an element is in an array?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What is hoisting?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What will be the value of the variable var if it is accessed before
+            it is declared?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What happens if you access a let/const variable before it is
+            declared?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What is Scope?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How is a Function Declaration different from a Function Expression?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How is the arrow function different from the usual one?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            Is there an equivalent of arguments for an arrow function?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What is Lexical Environment?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What is the global lexical environment?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What are Closures?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What is locking used for?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What is IIFE?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What is "this"?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How can I change the context of a function call?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How can you change the context of a function by turning the bind
+            method?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How can you change the context of a call using an arrow function?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What is a prototype of an object?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How does prototypical inheritance work in JavaScript?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How to create an object without a prototype?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How can one verify that the power of an object is a special power
+            and not the power of a prototype?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How to protect against changing an object?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What are the descriptors of the powers of the object?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What is the purpose of the constructor and class function?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What do you need to do to get the class method down to the next
+            instance?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What is multi-inheritance in JavaScript?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What is Promise?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            Why is the Promise.all method needed?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What is the Promise.race method used for?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            Why is the async/await function needed?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            How to process requests in async/await functions?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>What is an event loop?</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>
+            What is the difference between cookies, sessionStorage and
+            localStorage?
+          </dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
+      <div className={css.container}>
+        <dl>
+          <dt>Question:</dt>
+          <dd className={css.questionText}>here will be the question</dd>
+
+          <dt>Answer:</dt>
+          <dd>
+            <p>here will be the answer</p>
+            <p className={css.transcription}>here will be the transcription</p>
+          </dd>
+          <dt>Answer (GPT):</dt>
+          <dd>here will be the answer</dd>
+        </dl>
+      </div>
+      {/* ---------------------- */}
     </div>
   );
 };

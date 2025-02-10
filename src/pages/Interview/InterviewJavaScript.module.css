@@ -46,6 +46,7 @@ dt {
 .questionText {
   font-size: 20px;
   font-weight: 500;
+  /* color: red; */
 }
 
 table {
