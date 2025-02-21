@@ -396,8 +396,16 @@ const InterviewJavaScript = () => {
 
           <dt>Answer:</dt>
           <dd>
-            <p>here will be the answer</p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p>
+              Because objects are data types passed by reference, two
+              identical-looking objects have different references, so the
+              comparison operation will return false.
+            </p>
+            <p className={css.transcription}>
+              bɪˈkəz ˈɑbdʒɪkts ɑr ˈdeɪtə taɪps pæst baɪ ˈrɛfɚəns, tu
+              aɪˈdɛntɪkəl-ˈlʊkɪŋ ˈɑbdʒɪkts hæv ˈdɪfɚənt ˈrɛfɚənsɪz, soʊ ðə
+              kəmˈpɛrɪsən ˌɑpəˈreɪʃən wɪl rɪˈtɝn fɔls.
+            </p>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
@@ -413,8 +421,33 @@ const InterviewJavaScript = () => {
 
           <dt>Answer:</dt>
           <dd>
-            <p>here will be the answer</p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <ul>
+              <li>
+                1. Use JSON.stringify to convert objects into strings and
+                compare them as two strings. This approach has limitations. If
+                an object contains methods or symbols, JSON.stringify will not
+                be able to convert them to a string.
+              </li>
+              <li>
+                2. Write or use the deepEqual function from a library, which
+                loops through the keys of two objects and checks the values of
+                these keys. The function should work recursively.
+              </li>
+            </ul>
+            <ul className={css.transcription}>
+              <li>
+                - wʌn). juz dʒeɪ-ɛs-əˈɛn strɪŋɡɪˌfaɪ tə kənˈvɝt ˈɑbdʒɪkts ˈɪntu
+                strɪŋz ænd kəmˈpɛr ðɛm æz tu strɪŋz. ðɪs əˈproʊʧ hæz
+                ˌlɪmɪˈteɪʃənz. ɪf ən ˈɑbdʒɪkt kənˈteɪnz ˈmɛθədz ɔr ˈsɪmbəlz,
+                dʒeɪ-ɛs-əˈɛn strɪŋɡɪˌfaɪ wɪl nɑt bi ˈeɪbəl tə kənˈvɝt ðɛm tə ə
+                strɪŋ.{' '}
+              </li>
+              <li>
+                - tu). raɪt ɔr juz ðə diːp ɪˈkwɑl ˈfʌŋkʃən frʌm ə ˈlaɪbrɛri, wɪʧ
+                lups θru ðə kiz əv tu ˈɑbdʒɪkts ænd ʧɛks ðə ˈvæljuz əv ðiz kiz.
+                ðə ˈfʌŋkʃən ʃʊd wɝk rɪˈkɝsɪvli.
+              </li>
+            </ul>
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
@@ -428,8 +461,58 @@ const InterviewJavaScript = () => {
 
           <dt>Answer:</dt>
           <dd>
-            <p>here will be the answer</p>
-            <p className={css.transcription}>here will be the transcription</p>
+            <p>
+              There is a concept of deep and shallow copying. Deep copying means
+              copying an object along with all its nested levels. Shallow
+              copying copies only the first level of properties, while
+              references to nested objects remain the same.
+            </p>
+            <h5>Methods of shallow copying:</h5>
+            <ul>
+              <li>1. Use the spread operator (...)</li>
+              <li>2. Use Object.assign()</li>
+            </ul>
+            <h5>Methods of deep copying:</h5>
+            <ul>
+              <li>
+                1. Use JSON.stringify and JSON.parse to convert an object to a
+                string and then back. This method has limitations, as it cannot
+                copy methods or symbols.
+              </li>
+              <li>
+                2. Write or use a deepClone function from a library that
+                recursively iterates through the object's keys and copies them
+                into a new object.
+              </li>
+            </ul>
+
+            <div className={css.transcription}>
+              <p>
+                ðɛr ɪz ə ˈkɑnsɛpt əv dip ænd ˈʃæloʊ ˈkɑpiɪŋ. dip ˈkɑpiɪŋ minz
+                ˈkɑpiɪŋ ən ˈɑbdʒɪkt əˈlɔŋ wɪð ɔl ɪts ˈnɛstɪd ˈlɛvəlz. ˈʃæloʊ
+                ˈkɑpiɪŋ ˈkɑpiz ˈoʊnli ðə fɝst ˈlɛvəl əv ˈprɑpɚtiz, waɪl
+                ˈrɛfɚənsɪz tə ˈnɛstɪd ˈɑbdʒɪkts rɪˈmeɪn ðə seɪm.
+              </p>
+              <h5>mɛθədz əv ˈʃæloʊ ˈkɑpiɪŋ :</h5>
+              <ul>
+                <li>1. juz ðə sprɛd ˈɑpəˌreɪtɚ (...)</li>
+                <li>2. juz ˈɑbdʒɪkt əˈsaɪn</li>
+              </ul>
+              <h5>mɛθədz əv dip ˈkɑpiɪŋ :</h5>
+              <ul>
+                <li>
+                  1. juz dʒeɪ-ɛs-əˈɛn ˈstrɪŋɡɪˌfaɪ ænd dʒeɪ-ɛs-əˈɛn pɑrs tə
+                  kənˈvɝt ən ˈɑbdʒɪkt tə ə strɪŋ ænd ðɛn bæk. ðɪs ˈmɛθəd hæz
+                  ˌlɪmɪˈteɪʃənz, æz ɪt ˈkænˌnɑt ˈkɑpi ˈmɛθədz ɔr ˈsɪmbəlz.
+                </li>
+                <li>
+                  2. raɪt ɔr juz ə dip kloʊn ˈfʌŋkʃən frʌm ə ˈlaɪˌbrɛri ðæt
+                  rɪˈkɝsɪvli ˈɪtəˌreɪts θru ði ˈɑbdʒɪkts kiz ænd ˈkɑpiz ðɛm
+                  ˈɪntu ə nu ˈɑbdʒɪkt.
+                </li>
+              </ul>
+            </div>
+            {/* <p className={css.transcription}>here will be the transcription</p> */}
           </dd>
           <dt>Answer (GPT):</dt>
           <dd>here will be the answer</dd>
